@@ -13,7 +13,7 @@ body {
 
 body::before {
     content: "";
-    background-image: url('pre.svg');
+    background-image: url('{{ url_for("static", filename="img/pre.svg") }}');
     background-size: 80px;
     background-repeat: repeat;
     opacity: 0.2;
